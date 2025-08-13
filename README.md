@@ -66,6 +66,8 @@ By 2024, prices reached ₦1,030 per liter amidst ongoing economic reforms and c
 5.  Licensing/Attribution: Cite NBS as the primary source in all deliverables and metadata.
 
    <a href="https://github.com/Natty-p/Nigeria-Fuel-Price-Analysis-Report/blob/main/Motor%20Spirit.xlsx"> Excel File</a>
+
+   
    <a href="https://github.com/Natty-p/Nigeria-Fuel-Price-Analysis-Report/blob/main/Price%20of%20Fuel%20in%20nigeria.pbit"> Power Bi File</a>
 
 
