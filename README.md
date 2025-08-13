@@ -65,7 +65,50 @@ By 2024, prices reached ₦1,030 per liter amidst ongoing economic reforms and c
 4.  Coverage: 36 states + FCT where available.
 5.  Licensing/Attribution: Cite NBS as the primary source in all deliverables and metadata.
 
-Conclusion
+   <a href="https://github.com/Natty-p/Nigeria-Fuel-Price-Analysis-Report/blob/main/Motor%20Spirit.xlsx"> Excel File</a>
+   <a href="https://github.com/Natty-p/Nigeria-Fuel-Price-Analysis-Report/blob/main/Price%20of%20Fuel%20in%20nigeria.pbit"> Power Bi File</a>
+
+
+##  Visualizations (Power BI)
+
+1.  State Trend Line: Line chart of State Avg Price by DimDate[Month], with slicers for state and year.
+2.  Volatility Leaderboard: Bar chart of Rolling 6M Volatility by Year.
+3.  KPI Cards: Avg Price, Highest/Lowest for selected period.
+4.  Policy Timeline Markers: Use shapes/annotations to mark key dates (e.g., may 2021, October 2021, may 2022, December 2022, ect), aiding context.
+
+<img width="1427" height="818" alt="Fuel trend db" src="https://github.com/user-attachments/assets/4aee1d58-bd01-4807-910b-5cc62ef88833" />
+
+##   Limitations
+
+Data Gaps: Missing or irregular months for some states; caution in trend inference.
+
+Methodological Changes: NBS survey or calculation changes over time may affect comparability.
+
+Informal Markets: Off-station purchases and temporary scarcity premiums aren’t fully captured.
+
+External Shocks: FX regime shifts, refinery outages, and global oil swings introduce confounders beyond the dataset.
+
+##   Recommendations
+
+Data Quality: Maintain a standardized state name master list; run automated validation checks each refresh.
+
+Granularity: Where possible, ingest station-level or weekly data for faster signal detection.
+
+Dashboards: Publish a Power BI app with role-based views (executive KPIs vs analyst deep-dive).
+
+Scenario Planning: Build What‑If parameters (e.g., FX, crude benchmarks, distribution costs) to simulate price paths.
+
+Context Layer: Keep a maintained policy timeline so non-analysts can interpret visuals correctly.
+
+##  Findings & Insights
+
+<img width="1026" height="689" alt="trd 2" src="https://github.com/user-attachments/assets/c440a837-0d95-437d-9a24-d167228977a4" />
+
+
+The average retail price paid by consumers for Premium Motor Spirit (Petrol) for May 2025 was N1027.76, indicating a 33.54% increase compared to the value recorded in May 2024 (N769.62). Likewise, comparing the average price value with the previous month (.i.e. April 2025), the average retail price decreased by 17.07% from N1239.33. On State profile analysis, Sokoto State had the highest average retail price for Premium Motor Spirit (Petrol), at N1100.50, Zamfara and Anambra States were next, with N1093.21, and N1084.13, respectively. Conversely, Yobe, Rivers and Taraba States had the lowest average retail prices for Premium Motor Spirit (Petrol), at N950.60, N981.67, and N983.00 respectively. Lastly, on the Zonal profile, the South East Zone had the highest average retail price of N1049.15, while the North Central Zone had the lowest price of N1005.42.
+
+
+##  Conclusion
 From 1973 to 2024, Nigeria's fuel price history has been a dance between subsidized cushioning and harsh market realities. Each increase reflected not only government policy but global oil price trends and local economic conditions.
 While recent market-driven pricing under President Tinubu presents long-term hopes of economic stabilisation, the immediate impact continues to test Nigerians' resilience.
 
